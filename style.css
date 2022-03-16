@@ -87,3 +87,66 @@ button:hover {
 
     
 }
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 340px;
+    }
+
+    .search-bar {
+        width: 215px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .card {
+        width: 300px;
+    }
+
+    .search-bar {
+        width: 185px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .card {
+        width: 250px;
+    }
+
+    .search-bar {
+        width: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .card {
+        width: 180px;
+    }
+
+    .search-bar {
+        width: 120px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .city {
+        font-size: 22px;
+    }
+
+    .temp {
+        font-size: 32px;
+    }
+
+    .humidity {
+        font-size: 14px;
+    }
+
+    .wind {
+        font-size: 14px;
+    }
+}
